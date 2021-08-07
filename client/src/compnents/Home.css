@@ -1,0 +1,17 @@
+body, html {
+    height: 100%;
+    }
+body {
+    background: #f2f2f2;
+    color: #333333;
+    margin-top: 5rem;
+    }
+.back{
+    background-image: url("../images/background.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    }

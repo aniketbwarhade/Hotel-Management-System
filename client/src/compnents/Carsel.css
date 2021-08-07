@@ -1,0 +1,16 @@
+
+  /* gives us the illusion of a "centered" slide */
+  .carousel__slider {
+    padding-left: 16%;
+    padding-right: 16%;
+    padding-top: 1%;
+    padding-bottom: 3%;
+  }
+  
+.carousel-control-prev {
+    margin: 183px;
+}
+.carousel-control-next {
+    margin: 183px;
+}
+  

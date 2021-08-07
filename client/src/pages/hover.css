@@ -1,0 +1,100 @@
+
+/* New file */
+
+.cont {
+  width: 100px;
+  margin: 20px;
+  height: 250px;
+  border: 3px solid #eee;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+.child {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+.bg-one {
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/hotel.jpg);
+}
+.bg-two {
+  background-image: url(../images/buffet.jpg);
+}
+.bg-three {
+  background-image: url(../images/deluxe.jpg);
+}
+.bg-four {
+  background-image: url(../images/king.jpg);
+}
+.bg-five {
+  background-image: url(../images/queen.jpg);
+}
+.bg-six {
+  background-image: url(../images/lobby.jpeg);
+}
+.bg-seven {
+  background-image: url(../images/reception.jpg);
+}
+.bg-eight {
+  background-image: url(../images/restaurant.jpg);
+}
+.bg-nine {
+  background-image: url(../images/nonac.jpg);
+}
+.text {
+  display: none;
+  font-size: 35px;
+  color: #ffffff !important;
+  font-family: sans-serif;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 50px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.cont:hover .child,
+.cont:focus .child {
+  -ms-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.cont:hover .child:before,
+.cont:focus .child:before {
+  display: block;
+}
+.cont:hover span,
+.cont:focus span {
+  display: block;
+}
+.child:before {
+  content: "";
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(52, 73, 94, 0.75);
+}
+@media screen and (max-width: 960px) {
+  .cont {
+    width: 100%;
+    margin: 20px 0;
+  }
+}

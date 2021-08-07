@@ -1,0 +1,26 @@
+.bg-steel {
+    background-color: #0a2642;
+}
+.fontcolor{
+    color: aliceblue!important;
+    padding: 9px;
+}
+
+#basic-nav-dropdown{
+    color: aliceblue;
+}
+#wid{
+    margin-right: 383px;
+    font-size: 35px;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 125px;
+}
+
+.font{
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.icon{
+    margin-top: -11px;
+}

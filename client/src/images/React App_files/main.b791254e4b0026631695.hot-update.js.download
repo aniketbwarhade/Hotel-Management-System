@@ -1,0 +1,691 @@
+webpackHotUpdate("main",{
+
+/***/ "./src/pages/SignUp.jsx":
+/*!******************************!*\
+  !*** ./src/pages/SignUp.jsx ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _images_login_bg_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../images/login_bg.jpg */ "./src/images/login_bg.jpg");
+/* harmony import */ var react_icons_all__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-icons/all */ "./node_modules/react-icons/all.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "C:\\Users\\anike\\Desktop\\Project\\HMS project\\client\\src\\pages\\SignUp.jsx";
+
+
+
+
+
+
+class SignUp extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  constructor() {
+    super();
+    this.state = {
+      fullName: "",
+      username: "",
+      email: "",
+      password: ""
+    };
+  }
+
+  render() {
+    return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+      style: {
+        backgroundImage: `url("${_images_login_bg_jpg__WEBPACK_IMPORTED_MODULE_1__["default"]}")`,
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        height: "150vh",
+        width: "100%",
+        paddingTop: "50px"
+      },
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("header", {
+        class: "site-header ",
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("nav", {
+          class: "navbar navbar-expand-md navbar-dark bg-steel fixed-top",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+            class: "container",
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("a", {
+              className: "navbar-brand",
+              style: {
+                fontSize: "20px",
+                fontFamily: "Georgia Times New Roman Times serif",
+                fontWeight: "bold"
+              },
+              href: "/login",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])(react_icons_all__WEBPACK_IMPORTED_MODULE_2__["FaHotel"], {
+                size: "35px",
+                className: "icon"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 31,
+                columnNumber: 169
+              }, this), " HOTEL MANAGEMENT SYSTEM "]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 31,
+              columnNumber: 29
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("a", {
+              className: "nav-item nav-link",
+              style: {
+                color: "white",
+                dataToggle: "tooltip",
+                dataPlacement: "bottom",
+                title: "About"
+              },
+              href: "/about",
+              children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])(react_icons_all__WEBPACK_IMPORTED_MODULE_2__["BsFillQuestionCircleFill"], {
+                size: "35px",
+                className: "icon"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 32,
+                columnNumber: 162
+              }, this)
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 32,
+              columnNumber: 29
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("button", {
+              class: "navbar-toggler",
+              type: "button",
+              "data-toggle": "collapse",
+              "data-target": "#navbarSupportedContent",
+              children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("span", {
+                class: "navbar-toggler-icon"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 35,
+                columnNumber: 33
+              }, this)
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 33,
+              columnNumber: 29
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+              class: "collapse navbar-collapse",
+              id: "navbarSupportedContent",
+              children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("ul", {
+                class: "navbar-nav ml-auto",
+                style: {
+                  fontSize: "18px"
+                },
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("li", {
+                  class: "nav-item active",
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("a", {
+                    class: "nav-link",
+                    href: "/login",
+                    "data-toggle": "tooltip",
+                    "data-placement": "bottom",
+                    title: "Login",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])(react_icons_all__WEBPACK_IMPORTED_MODULE_2__["FiLogOut"], {
+                      size: "35px",
+                      className: "icon"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 41,
+                      columnNumber: 135
+                    }, this)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 41,
+                    columnNumber: 41
+                  }, this)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 40,
+                  columnNumber: 37
+                }, this)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 39,
+                columnNumber: 33
+              }, this)
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 38,
+              columnNumber: 29
+            }, this)]
+          }, void 0, true, {
+            fileName: _jsxFileName,
+            lineNumber: 30,
+            columnNumber: 25
+          }, this)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 29,
+          columnNumber: 21
+        }, this)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 28,
+        columnNumber: 17
+      }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+        class: "col-md-6 mx-auto",
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+          class: "content-section",
+          style: {
+            border: "1px solid #0a2642",
+            borderRadius: "15px",
+            width: "75%",
+            height: "65%"
+          },
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("form", {
+            method: "POST",
+            enctype: "multipart/form-data",
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("fieldset", {
+              class: "form-group",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("legend", {
+                class: "border-bottom",
+                children: "Register"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 53,
+                columnNumber: 33
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                id: "div_id_username",
+                class: "form-group",
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("label", {
+                  for: "id_username",
+                  class: " requiredField",
+                  children: ["Username", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("span", {
+                    class: "asteriskField",
+                    children: "*"
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 55,
+                    columnNumber: 89
+                  }, this), " "]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 55,
+                  columnNumber: 33
+                }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                  class: "",
+                  children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("input", {
+                    type: "text",
+                    name: "username",
+                    maxlength: "150",
+                    autofocus: "",
+                    class: "textinput textInput form-control",
+                    required: "",
+                    id: "id_username",
+                    onChange: this.changeusername,
+                    value: this.state.username
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 57,
+                    columnNumber: 41
+                  }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("small", {
+                    id: "hint_id_username",
+                    class: "form-text text-muted",
+                    children: "Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only."
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 58,
+                    columnNumber: 41
+                  }, this)]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 56,
+                  columnNumber: 37
+                }, this)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 54,
+                columnNumber: 33
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                id: "div_id_first_name",
+                class: "form-group",
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("label", {
+                  for: "id_first_name",
+                  class: " requiredField",
+                  children: ["First name", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("span", {
+                    class: "asteriskField",
+                    children: "*"
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 62,
+                    columnNumber: 97
+                  }, this), " "]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 62,
+                  columnNumber: 37
+                }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                  class: "",
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("input", {
+                    type: "text",
+                    name: "first_name",
+                    maxlength: "50",
+                    class: "textinput textInput form-control",
+                    required: "",
+                    id: "id_first_name",
+                    onChange: this.changefirstName,
+                    value: this.state.firstName
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 64,
+                    columnNumber: 41
+                  }, this)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 63,
+                  columnNumber: 37
+                }, this)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 61,
+                columnNumber: 33
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                id: "div_id_last_name",
+                class: "form-group",
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("label", {
+                  for: "id_last_name",
+                  class: " requiredField",
+                  children: ["Last name", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("span", {
+                    class: "asteriskField",
+                    children: "*"
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 68,
+                    columnNumber: 95
+                  }, this), " "]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 68,
+                  columnNumber: 37
+                }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                  class: "",
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("input", {
+                    type: "text",
+                    name: "last_name",
+                    maxlength: "150",
+                    class: "textinput textInput form-control",
+                    required: "",
+                    id: "id_last_name",
+                    onChange: this.changelastName,
+                    value: this.state.lastName
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 70,
+                    columnNumber: 41
+                  }, this)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 69,
+                  columnNumber: 37
+                }, this)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 67,
+                columnNumber: 33
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                id: "div_id_email",
+                class: "form-group",
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("label", {
+                  for: "id_email",
+                  class: " requiredField",
+                  children: ["Email-Id", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("span", {
+                    class: "asteriskField",
+                    children: "*"
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 74,
+                    columnNumber: 90
+                  }, this), " "]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 74,
+                  columnNumber: 37
+                }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                  class: "",
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("input", {
+                    type: "email",
+                    name: "email",
+                    class: "emailinput form-control",
+                    required: "",
+                    id: "id_email",
+                    onChange: this.changeemail,
+                    value: this.state.email
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 76,
+                    columnNumber: 41
+                  }, this)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 75,
+                  columnNumber: 37
+                }, this)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 73,
+                columnNumber: 33
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                id: "div_id_password1",
+                class: "form-group",
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("label", {
+                  for: "id_password1",
+                  class: " requiredField",
+                  children: ["Password", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("span", {
+                    class: "asteriskField",
+                    children: "*"
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 80,
+                    columnNumber: 94
+                  }, this), " "]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 80,
+                  columnNumber: 37
+                }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                  class: "",
+                  children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("input", {
+                    type: "password",
+                    name: "password1",
+                    autocomplete: "new-password",
+                    class: "textinput textInput form-control",
+                    required: "",
+                    id: "id_password1",
+                    onChange: this.changepassword1,
+                    value: this.state.password1
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 82,
+                    columnNumber: 41
+                  }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("small", {
+                    id: "hint_id_password1",
+                    class: "form-text text-muted",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("ul", {
+                      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("li", {
+                        children: "Your password can\u2019t be too similar to your other personal information."
+                      }, void 0, false, {
+                        fileName: _jsxFileName,
+                        lineNumber: 85,
+                        columnNumber: 49
+                      }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("li", {
+                        children: "Your password must contain at least 8 characters."
+                      }, void 0, false, {
+                        fileName: _jsxFileName,
+                        lineNumber: 86,
+                        columnNumber: 49
+                      }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("li", {
+                        children: "Your password can\u2019t be a commonly used password."
+                      }, void 0, false, {
+                        fileName: _jsxFileName,
+                        lineNumber: 87,
+                        columnNumber: 49
+                      }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("li", {
+                        children: "Your password can\u2019t be entirely numeric."
+                      }, void 0, false, {
+                        fileName: _jsxFileName,
+                        lineNumber: 88,
+                        columnNumber: 49
+                      }, this)]
+                    }, void 0, true, {
+                      fileName: _jsxFileName,
+                      lineNumber: 84,
+                      columnNumber: 45
+                    }, this)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 83,
+                    columnNumber: 41
+                  }, this)]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 81,
+                  columnNumber: 37
+                }, this)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 79,
+                columnNumber: 33
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                id: "div_id_password2",
+                class: "form-group",
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("label", {
+                  for: "id_password2",
+                  class: " requiredField",
+                  children: ["Password confirmation", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("span", {
+                    class: "asteriskField",
+                    children: "*"
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 94,
+                    columnNumber: 107
+                  }, this), " "]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 94,
+                  columnNumber: 37
+                }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                  class: "",
+                  children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("input", {
+                    type: "password",
+                    name: "password2",
+                    autocomplete: "new-password",
+                    class: "textinput textInput form-control",
+                    required: "",
+                    id: "id_password2",
+                    onChange: this.password2,
+                    value: this.state.password2
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 96,
+                    columnNumber: 41
+                  }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("small", {
+                    id: "hint_id_password2",
+                    class: "form-text text-muted",
+                    children: "Enter the same password as before, for verification."
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 97,
+                    columnNumber: 41
+                  }, this)]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 95,
+                  columnNumber: 37
+                }, this)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 93,
+                columnNumber: 33
+              }, this)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 52,
+              columnNumber: 29
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+              class: "form-group",
+              children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("button", {
+                class: "btn btn-outline-info",
+                type: "submit",
+                children: "Sign Up"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 105,
+                columnNumber: 33
+              }, this)
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 104,
+              columnNumber: 29
+            }, this)]
+          }, void 0, true, {
+            fileName: _jsxFileName,
+            lineNumber: 51,
+            columnNumber: 25
+          }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+            class: "border-top pt-3",
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("small", {
+              class: "text-muted",
+              children: ["Already Have an Acoount? ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("a", {
+                href: "/login",
+                class: "ml-2",
+                children: "Sign In"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 110,
+                columnNumber: 58
+              }, this)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 109,
+              columnNumber: 29
+            }, this)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 108,
+            columnNumber: 25
+          }, this)]
+        }, void 0, true, {
+          fileName: _jsxFileName,
+          lineNumber: 50,
+          columnNumber: 21
+        }, this)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 48,
+        columnNumber: 17
+      }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+        class: "col-md-6 mx-auto",
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+          class: "alert alert-info content-section",
+          style: {
+            borderRadius: "15px",
+            border: "1px solid #0a2642",
+            height: "110px",
+            width: "75%",
+            marginTop: "0px"
+          },
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("p", {
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("b", {
+              children: "Note:"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 119,
+              columnNumber: 29
+            }, this), " You need to login/sign up in order to make use of this hotel management system."]
+          }, void 0, true, {
+            fileName: _jsxFileName,
+            lineNumber: 118,
+            columnNumber: 25
+          }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("p", {
+            children: "Thank you!"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 122,
+            columnNumber: 25
+          }, this)]
+        }, void 0, true, {
+          fileName: _jsxFileName,
+          lineNumber: 117,
+          columnNumber: 21
+        }, this)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 116,
+        columnNumber: 17
+      }, this)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 13
+    }, this);
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (SignUp);
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ })
+
+})
+//# sourceMappingURL=main.b791254e4b0026631695.hot-update.js.map
